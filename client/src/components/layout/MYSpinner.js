@@ -1,5 +1,5 @@
 import React from 'react';
-import Spinner from '@bit/nexxtway.react-rainbow.spinner';
+import Spinner from '../../../@bit/nexxtway.react-rainbow.spinner';
 
 export default function () {
     return (
@@ -7,4 +7,4 @@ export default function () {
             <Spinner variant="brand" size="large" />
         </div>
     )
-} 
+}

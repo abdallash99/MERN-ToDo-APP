@@ -1,0 +1,61 @@
+{
+  "_from": "@bit/nexxtway.react-rainbow.spinner",
+  "_id": "@bit/nexxtway.react-rainbow.spinner@1.10.0",
+  "_inBundle": false,
+  "_integrity": "sha1-ALuSN4bvlYpy82dU2nzidbxZTh4=",
+  "_location": "/@bit/nexxtway.react-rainbow.spinner",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@bit/nexxtway.react-rainbow.spinner",
+    "name": "@bit/nexxtway.react-rainbow.spinner",
+    "escapedName": "@bit%2fnexxtway.react-rainbow.spinner",
+    "scope": "@bit",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://node.bit.dev/nexxtway.react-rainbow.spinner/-/nexxtway.react-rainbow.spinner-1.10.0.tgz",
+  "_shasum": "00bb923786ef958a72f36754da7ce275bc594e1e",
+  "_spec": "@bit/nexxtway.react-rainbow.spinner",
+  "_where": "C:\\Users\\abu shawesh\\Desktop\\ToDoApp\\client",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.5"
+    },
+    "overrides": {
+      "dependencies": {
+        "react": "-",
+        "react-dom": "-"
+      },
+      "peerDependencies": {
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+      }
+    }
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@bit/nexxtway.react-rainbow.assistive-text": "1.10.0",
+    "@bit/nexxtway.react-rainbow.libs.colors": "1.10.0",
+    "@bit/nexxtway.react-rainbow.types": "1.10.0",
+    "prop-types": "^15.6.2",
+    "styled-components": "^4.3.2"
+  },
+  "deprecated": false,
+  "devDependencies": {},
+  "homepage": "https://bit.dev/nexxtway/react-rainbow/spinner",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "dist/components/Spinner/index.js",
+  "name": "@bit/nexxtway.react-rainbow.spinner",
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "version": "1.10.0"
+}
