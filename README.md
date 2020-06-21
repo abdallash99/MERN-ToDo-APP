@@ -4,4 +4,5 @@ then run
 ## npm install 
 in /client after that run 
 ## npm install 
-after that just run npm run dev
+after that just run 
+## npm run dev
