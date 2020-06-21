@@ -2,7 +2,7 @@ import React, { useEffect, useContext } from 'react'
 import TodoForm from '../todo/TodoForm'
 import TodoItems from '../todo/TodoItems'
 import AuthContext from './../../context/auth/authContext';
-import MYSpinner from '../layout/MYSpinner';
+import Spinner from '../layout/Spinner'
 const Home = () => {
     const authContext = useContext(AuthContext);
     const { loadUser, loading } = authContext;
@@ -11,7 +11,7 @@ const Home = () => {
         // eslint-disable-next-line
     }, [])
     return (
-        loading ? <MYSpinner /> :
+        loading ? <Spinner /> :
             <div className='container'>
                 <TodoForm />
                 <TodoItems />
